@@ -57,9 +57,25 @@ migrate -path db/migration -database "postgresql://admin:secret@localhost:5432/s
 ```
 
 
+## Things to consider
 
+![Things to Consider](config-files/choosing-db.png)
 
+We are choosing SQLC
 
+Commands
+```
+sqlc init
+```
+
+Understanding SQLC config_
+ - https://github.com/sqlc-dev/sqlc-gen-go
+ - https://github.com/sqlc-dev/sqlc/tree/v1.4.0 (we used this)
+
+Generate 
+```
+sqlc generate
+```
 
 
 
